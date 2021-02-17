@@ -5,6 +5,13 @@
  * Time: 9:49 AM
  */
 
+ echo '<pre>';
+ var_dump($_GET);
+ echo '</pre>';
+
+ $keyword = $_GET['keyword'];
+ echo $keyword . '<br />';
+
 ?>
 <!doctype html>
 <html lang="en">
